@@ -7,7 +7,7 @@
         <span class="cards-btn">
             <span class="cards-preco">R$ {{ multiplicar(precoBolo, n2) }}</span>
             <section class="card-inputs">
-                <button class="card-btn" (click)="add('+')">+</button>
+                <button class="card-btn" (click)="add('+')"> + </button>
                 <input type="number" min="1" max="10" [(ngModel)]="n2" name="valor2" disabled>
                 <button class="card-btn" (click)="add('-')">-</button>
             </section>
